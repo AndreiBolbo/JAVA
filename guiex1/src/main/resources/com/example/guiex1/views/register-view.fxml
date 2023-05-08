@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiex1.controller.RegisterController">
+   <children>
+      <Label alignment="CENTER" layoutX="185.0" layoutY="29.0" prefHeight="56.0" prefWidth="255.0" text="WELCOME!" />
+      <TextField fx:id="username" layoutX="238.0" layoutY="100.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="firstname" layoutX="238.0" layoutY="137.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="lastname" layoutX="238.0" layoutY="174.0" />
+      <PasswordField fx:id="password" layoutX="238.0" layoutY="212.0" />
+      <Label layoutX="159.0" layoutY="104.0" prefHeight="18.0" prefWidth="79.0" text="username:" />
+      <Label layoutX="159.0" layoutY="141.0" prefHeight="18.0" prefWidth="64.0" text="firstname:" />
+      <Label layoutX="159.0" layoutY="178.0" prefHeight="18.0" prefWidth="64.0" text="lastname:" />
+      <Label layoutX="157.0" layoutY="216.0" prefHeight="18.0" prefWidth="64.0" text="password:" />
+      <Button fx:id="buttonr" layoutX="232.0" layoutY="270.0" mnemonicParsing="false" onAction="#registerdb" prefHeight="26.0" prefWidth="150.0" text="Create Account" />
+   </children>
+</AnchorPane>
